@@ -229,7 +229,7 @@ def main() -> None:
     cur_time = str(datetime.now().time())
     print(cur_time)
 
-    updater = Updater("1843783243:AAE81UBulb6UnSZ_zDZHvXqOiWfhRqpQop8")
+    updater = Updater("TOKEN")
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
