@@ -257,13 +257,13 @@ def main() -> None:
     # start_polling() is non-blocking and will stop the bot gracefully.
     updater.idle()
 
-# def bot():
+def bot():
 
-#     th1 = Thread(target=update, args=())
-#     th2 = Thread(target=main, args=())
-#     th1.start()
-#     time.sleep(100)
-#     th2.start()
+    th1 = Thread(target=update, args=())
+    th2 = Thread(target=main, args=())
+    th1.start()
+    time.sleep(100)
+    th2.start()
 
 if __name__ == "__main__":
     main()
